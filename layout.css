@@ -19,6 +19,13 @@ section {
 h1 {
   text-align: center;
 }
+#products {
+  scroll-margin-top: 5rem;
+}
+#visit,
+#contact {
+  scroll-margin-top: 3em;
+}
 .carousel-item {
   justify-content: center;
 }
