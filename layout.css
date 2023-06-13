@@ -1,0 +1,49 @@
+:root {
+  --bs-light-rgb: 254, 251, 231;
+  --bs-grey: 183, 183, 183;
+  --bs-green: 218, 229, 208;
+  --bs-pink: 249, 235, 200;
+  --bg-dark: 160, 188, 194;
+}
+body {
+  background-color: rgba(var(--bs-green));
+  font-family: "Cormorant Garamond", serif;
+}
+
+section {
+  margin-block-end: 3rem;
+}
+h1 {
+  text-align: center;
+}
+.carousel-item {
+  justify-content: center;
+}
+.carousel-item img,
+.carousel-caption {
+  max-width: 425px;
+  margin: auto;
+}
+.carousel-caption p {
+  padding: 1rem;
+  background-color: rgba(var(--bs-light-rgb), 0.85);
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-inline: 1rem;
+}
+textarea {
+  height: 100px;
+}
+p {
+  font-weight: 200;
+}
+.btn-primary {
+  background-color: rgba(var(--bg-dark));
+  border-width: 0;
+  color: black;
+  margin-top: 1rem;
+}
+.btn-primary:hover {
+  background-color: rgba(var(--bg-dark));
+}
