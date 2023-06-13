@@ -9,6 +9,9 @@ body {
   background-color: rgba(var(--bs-green));
   font-family: "Cormorant Garamond", serif;
 }
+nav {
+  border-bottom: 1px lightgrey solid;
+}
 
 section {
   margin-block-end: 3rem;
